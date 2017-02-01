@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>679</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>600</width>
+    <height>800</height>
+   </size>
+  </property>
+  <property name="cursor">
+   <cursorShape>PointingHandCursor</cursorShape>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QFormLayout" name="formLayout_2">
+    <item row="1" column="1">
+     <widget class="QWidget" name="widget" native="true">
+      <property name="minimumSize">
+       <size>
+        <width>400</width>
+        <height>600</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>700</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <widget class="QWidget" name="layoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>654</width>
+         <height>520</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="2" column="0">
+         <layout class="QVBoxLayout" name="verticalLayout_4">
+          <item>
+           <widget class="QLineEdit" name="lineEdit_2">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>100</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>Bienvenue sur UTComputer !</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QTableWidget" name="tableWidget">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>100</height>
+             </size>
+            </property>
+            <attribute name="horizontalHeaderStretchLastSection">
+             <bool>true</bool>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="4" column="0" rowspan="2">
+         <layout class="QHBoxLayout" name="horizontalLayout_5">
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_2">
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_4">
+              <item>
+               <widget class="QPushButton" name="button7">
+                <property name="text">
+                 <string>7</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="button8">
+                <property name="text">
+                 <string>8</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="button9">
+                <property name="text">
+                 <string>9</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_2">
+              <item>
+               <widget class="QPushButton" name="button4">
+                <property name="text">
+                 <string>4</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="button5">
+                <property name="text">
+                 <string>5</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="button6">
+                <property name="styleSheet">
+                 <string notr="true"/>
+                </property>
+                <property name="text">
+                 <string>6</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_3">
+              <item>
+               <widget class="QPushButton" name="button1">
+                <property name="text">
+                 <string>1</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="button2">
+                <property name="text">
+                 <string>2</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="button3">
+                <property name="text">
+                 <string>3</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_6">
+              <item>
+               <widget class="QPushButton" name="button0">
+                <property name="text">
+                 <string>0</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="buttonPoint">
+                <property name="text">
+                 <string>.</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_15">
+              <item>
+               <widget class="QPushButton" name="buttonSpace">
+                <property name="text">
+                 <string>Space</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="Undo">
+                <property name="text">
+                 <string>Undo</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="Redo">
+                <property name="text">
+                 <string>Redo</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_3">
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_10">
+              <item>
+               <widget class="QPushButton" name="buttonAddition">
+                <property name="text">
+                 <string>+</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QComboBox" name="Pile">
+                <item>
+                 <property name="text">
+                  <string>DUP</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>DROP</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>SWAP</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>LASTOP</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>LASTARGS</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>CLEAR</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+              <item>
+               <widget class="QComboBox" name="Boucle">
+                <item>
+                 <property name="text">
+                  <string>IFT</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>IFTE</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>WHILE</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_7">
+              <item>
+               <widget class="QPushButton" name="buttonSoustraction">
+                <property name="text">
+                 <string>-</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QComboBox" name="Trigo">
+                <item>
+                 <property name="text">
+                  <string>SIN</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>COS</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>TAN</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>ARCSIN</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>ARCCOS</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>ARCTAN</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+              <item>
+               <widget class="QComboBox" name="Autre">
+                <item>
+                 <property name="text">
+                  <string>POW</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>DIV</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>MOD</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>SQRT</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>LN</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>EXP</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>LN</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>NUM</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>DEN</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_8">
+              <item>
+               <widget class="QPushButton" name="buttonMultiplication">
+                <property name="text">
+                 <string>*</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QComboBox" name="Complexe">
+                <item>
+                 <property name="text">
+                  <string>$</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>RE</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>IM</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>NORM</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>ARG</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+              <item>
+               <widget class="QComboBox" name="Logique">
+                <item>
+                 <property name="text">
+                  <string>=</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>!=</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>&lt;</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>&gt;</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>=&lt;</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>&gt;=</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>AND</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>OR</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>NOT</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_9">
+              <item>
+               <widget class="QPushButton" name="buttonDivision">
+                <property name="text">
+                 <string>/</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="beginProgramme">
+                <property name="text">
+                 <string>[</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="endProgramme">
+                <property name="text">
+                 <string>]</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout">
+              <item>
+               <widget class="QPushButton" name="buttonNEG">
+                <property name="text">
+                 <string>NEG</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="createExpression">
+                <property name="text">
+                 <string>'</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QComboBox" name="Expression_Programme_Variable">
+                <property name="maximumSize">
+                 <size>
+                  <width>125</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <item>
+                 <property name="text">
+                  <string>EVAL</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>STO</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>EDIT</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>FORGET</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+        <item row="3" column="0">
+         <layout class="QHBoxLayout" name="horizontalLayout_11">
+          <item>
+           <widget class="QLineEdit" name="lineEdit">
+            <property name="maximumSize">
+             <size>
+              <width>600</width>
+              <height>60</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="buttonEnter">
+            <property name="maximumSize">
+             <size>
+              <width>100</width>
+              <height>110</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>Enter</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="buttonSuppr">
+            <property name="text">
+             <string>Suppr</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>679</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuOptions">
+    <property name="title">
+     <string>Options</string>
+    </property>
+    <addaction name="param"/>
+    <addaction name="actionVariables"/>
+    <addaction name="actionProgrammes"/>
+   </widget>
+   <addaction name="menuOptions"/>
+  </widget>
+  <action name="param">
+   <property name="text">
+    <string>parametres</string>
+   </property>
+  </action>
+  <action name="actionVariables">
+   <property name="text">
+    <string>variables</string>
+   </property>
+  </action>
+  <action name="actionProgrammes">
+   <property name="text">
+    <string>programmes</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
